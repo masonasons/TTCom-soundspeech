@@ -4,6 +4,8 @@ This trigger attempts to backport the speech and sound changes from the TTCom 4.
 In addition, this trigger fixes a lot of the shortcomings the 4.0 fork itself had.
 
 # Changes
+## New in 1.12
+* adds an alternative triggers file (ttcom_triggers_alt.py). If the original spits all the login/logout messages at you at once, use this after removing the original and renaming the alt one to ttcom_triggers.py.
 ## New in 1.11
 * Fixes logged out messages. I am so stupid...
 ## New in 1.1
